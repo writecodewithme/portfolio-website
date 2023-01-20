@@ -1,0 +1,351 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@500&family=Gelasio:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+:root{
+    font-size: 10px;
+}
+body{
+    background-color: black;
+}
+.navbar{
+    /* position: absolute; */
+    top:0;
+    width:100vw;
+    height:10rem;
+    left:0;
+    position: fixed;
+    background-color: black;
+    padding: 2rem;
+    z-index: 100;
+    display: flex;
+    justify-content: space-around;
+}
+.hamburger-icon{
+    display: none;
+}
+.navbar ul{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    gap:10rem;
+}
+.navbar ul li{
+    font-size: 4rem;
+    list-style: none;
+    margin-bottom:5px;
+
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: antiquewhite;
+
+}
+.navbar ul li a:hover{
+    color:rgba(254, 254, 1, 0.981);
+
+}
+
+.main-section{
+    /* background-image: url("img/Elegant\ and\ Professional\ Company\ Business\ Proposal\ Presentation.jpg"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 5rem 0rem;
+}
+.container-box{
+    width:50%;
+    min-width:10rem;
+    /* height:70rem; */
+    margin:10rem auto;
+    
+    padding: 5rem;
+    background-position: fixed;
+    /* clip-path: polygon(100% 0%, 100% 100%, 51% 89%, 0 100%, 0% 50%, 0 0); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:5rem;
+    /* box-shadow: 0rem 0rem  70rem 20rem rgba(224, 205, 182, 0.426) inset ; */
+    flex-wrap: wrap;
+    text-align: center;
+
+    
+
+
+}
+
+.greetings h4{
+    font-size: 3rem;
+    color: white;
+    font-family: 'Baloo 2', cursive;
+}
+
+.myname{
+    font-size: 5rem;
+    color:rgba(254, 254, 1, 0.981);
+    letter-spacing: .5rem;
+    font-family: 'Dancing Script', cursive;;
+    text-shadow: 10px 0px 10px rgb(208, 205, 205);
+}
+.introduction{
+    font-size: 2.5rem;
+    color:beige;
+    font-family: 'Dancing Script', cursive;;
+    text-align: justify;
+    padding: 1rem;
+    line-height: 5rem;
+    letter-spacing: 0.5rem;
+
+}
+.about-me-section{
+    border: 1px solid white;
+    /* background-image: url("img/Elegant\ and\ Professional\ Company\ Business\ Proposal\ Presentation\ \(2\).jpg"); */
+    background-size: cover;
+    padding:10rem;
+    
+
+}
+.aboutme-box{
+    width:100%;
+    margin:1px auto;
+    min-width: 500px;
+    max-width: 150rem;
+    padding:5rem;
+    /* min-width: 700px; */
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    }
+.myphoto{
+    width:100%;
+   }
+.img-box{
+    border: 1px solid yellow;
+    width:40%;
+}
+.description h2 {
+    margin-bottom: 5rem;
+    font-size: 5rem;
+    color:bisque;
+    border-bottom: 3px solid yellow;
+    padding: 1rem;
+    width:25rem;
+    text-align: center;
+}
+.description{
+    padding: 2rem;
+    width:50%;
+    min-width: 300px;
+    
+}
+.about-me-text{
+    font-family: 'Dancing Script', cursive;
+    font-size:200%;
+    font-weight:100;
+    word-spacing: 2rem;
+    letter-spacing: .3rem;
+    text-indent: 5rem;
+    text-align: justify;
+    color:beige;
+    
+    
+
+
+}
+.description .btn ,.view-more-btn{
+    margin:3rem 0rem;
+    background-color:yellow;
+    padding: 1rem;
+    box-shadow: 0px 0px 30px 1px yellow;
+    border: 1px solid transparent;
+    border-radius:10px;
+}
+.description .btn a,.view-more-btn a{
+    text-decoration: none;
+    font-size: 2rem;
+    color: rgb(45, 41, 37);
+}
+
+
+/* --------projects section--------- */
+.my-projects-section h1,.social-media h3{
+    color:bisque;
+    text-align: center;
+    font-size: 5rem;
+    margin-bottom: 5rem;
+}
+.my-projects-section{
+    /* width:160rem; */
+    padding-left:5rem;
+    padding-right: 5rem;
+    padding-bottom: 10rem;
+    /* border:1px solid blue */
+    margin:1px auto;
+    border: 1px solid blue;
+    text-align: center;
+
+
+}
+.projects-div{
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
+    margin:0px auto;
+    /* border:1px solid red; */
+    padding:2rem;
+    gap:5rem;
+    flex-wrap: wrap;
+    border:2px solid white
+
+}
+.projects{
+    width:70rem;
+    /* max-width: 90rem; */
+    border:2px solid yellow;
+    height:35rem;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    
+}
+.project-desc{
+    color:whitesmoke;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    width:40%;
+    padding: 2rem;
+    transform: translateY(10rem);
+    text-align: center;
+
+}
+.projects:hover .project-desc{
+    transform:translateY(-10rem);
+    z-index: 20;
+    transition: 2s;
+}
+.project-img:hover{
+    opacity: 0.4;
+}
+.projects a{
+    width:90rem;
+}
+
+.project-img{
+    width:100%;
+    /* margin:1px auto; */
+    height:100%;
+}
+.view-more-btn {
+    box-shadow: none;
+}
+.contact-us-section{
+    padding:5rem;
+    background-image: linear-gradient(70deg,rgb(13, 12, 12));
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.social-media{
+    width:65rem;
+    display: flex;
+    justify-content:flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    /* background-color: white; */
+    gap:3rem;
+    padding: 5rem;
+}
+.social-media h3{
+    border-bottom: 4px solid white;
+}
+.social-media p {
+    font-size: 3rem;
+    color:bisque;
+
+}
+.icon-box{
+    width:20rem;
+    /* border: 4px solid red; */
+    display: flex;
+    justify-content: space-around;
+    
+
+}
+ .bi-envelope{
+  color:red;
+}
+.bi-telephone{
+ color:green;
+}
+.bi-github{
+ color:white;
+}
+.bi-linkedin{
+    color:blue
+}
+.bi-instagram{
+    color:plum;
+}
+
+i{
+    font-size: 3rem;
+    margin-right: 3rem;
+    /* color:red; */
+}
+
+
+.form-container-box{
+    /* margin:0px auto; */
+    /* border:1px solid #d2D248; */
+    
+    width:70rem;
+    min-width:5rem;
+    padding: 5rem;
+    background-color:rgba(128, 128, 128, 0.255);
+    backdrop-filter: blur(50px);
+    border-radius: 2rem;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 3rem;
+    margin-top:3rem 4rem;
+}
+input,textarea{
+    width: 100%;
+    padding: 0 1rem;
+    text-align: center;
+    outline: none;
+    border-radius: 1rem;
+    /* border: 1px solid hotpink; */
+    font-size: 2rem;
+    box-shadow: 0px 0px 20px gray;
+
+    
+}
+input{
+    height: 5rem;
+}
+input:focus{
+    border: 3px solid bisque;
+}
+[type="submit"]{
+    width:50%;
+    background-color:bisque;
+    border:1px solid transparent;
+}
+/* ----------------responsive section------------------ */
+@media (max-width: 1100px)

@@ -407,7 +407,7 @@ input:focus{
     }
     .description h2 , .social-media h3 {
         border-bottom: 4px solid white;
-    
+          margin:1px auto;
            width: auto;
         border-bottom-width:1px;
     }

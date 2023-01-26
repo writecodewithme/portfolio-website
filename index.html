@@ -23,13 +23,14 @@
 <body>
     <main>
         <nav class="navbar">
-            <ul>
-                <li><a href="#aboutme-box" class="link-about">About me</a></li>
-                <li><a href="#projects.html">My Projects</a></li>
-                <li><a href="#contact-us-section">Contact Me</a></li>
+            <ul id="nav-items">
+                <li><a href="#about-me-section" class="link-about" onclick="dissappernav()">About me</a></li>
+                <li><a href="#projects.html"onclick="dissappernav()">My Projects</a></li>
+                <li><a href="#contact-us-section" onclick="dissappernav()">Contact Me</a></li>
             </ul>
-            <div class="hamburger-icon">
-                <i class="bi bi-list"></i>
+            <div class="hamburger-icon" id="navigation-icon">
+                <i class="bi bi-list"></i></div>
+                <div class="close-menu" id="close-menu"><i class="bi bi-x"></i>
                         </div>
         </nav>
         <section class="main-section">
@@ -46,7 +47,7 @@
     </div>
 </section>
 
-<section class="about-me-section">
+<section class="about-me-section" id="about-me-section">
     <div class="aboutme-box" id="aboutme-box">
         <DIV class="img-box">
              <img class="myphoto wow bounceInUp" src="img/DSC_0519-removebg-preview (2).png">

@@ -17,3 +17,39 @@
 //     $('.hamburger-icon i').addClass('icofont-navigation-menu');
 //     $('.hamburger-icon i').removeClass('icofont-close');
 // });
+
+const hamburgerIcon= document.getElementById("navigation-icon")
+const closeMenu=document.getElementById("close-menu")
+const navigationIcon=document.getElementsByClassName(".bi-list")
+const navItems=document.getElementById("nav-items")
+
+hamburgerIcon.addEventListener("click",function(){
+       navItems.style.transform= "translateX(0px)"
+       navItems.style.transition="0.3s ease"
+       hamburgerIcon.style.display="none"
+       closeMenu.style.display="block"
+       })
+
+       closeMenu.addEventListener('click',()=>{
+              navItems.style.transform= "translateX(500px)"
+              navItems.style.transition="0.3s ease"
+              hamburgerIcon.style.display="block"
+              closeMenu.style.display="none"
+
+       })
+
+      function dissappernav(){
+              navItems.style.display="none"
+       }
+
+       
+
+      
+      
+      
+
+
+
+
+   
+

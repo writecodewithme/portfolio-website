@@ -26,14 +26,14 @@ body{
     justify-content: space-around;
     align-items: center;
 }
-.hamburger-icon {
+.hamburger-icon, .close-menu {
     display: none;
     text-align: right;
     color:white;
     font-size: 4rem;
 
 }
-.hamburger-icon i{
+.hamburger-icon i,.close-menu i{
     color: aliceblue;
 }
 .navbar ul{
@@ -57,6 +57,10 @@ body{
     color:rgba(254, 254, 1, 0.981);
 
 }
+.close-menu{
+    display: none;
+}
+
 
 .main-section{
     /* background-image: url("img/Elegant\ and\ Professional\ Company\ Business\ Proposal\ Presentation.jpg"); */
@@ -365,10 +369,29 @@ input:focus{
     .hamburger-icon{
         display: block;
         text-align: right;
+        position: fixed;
+        right:0;
+        top:0;
+    }
+    .close-menu{
+        text-align: right;
+        position: fixed;
+        right:0;
+        top:0;
     }
     .navbar ul{
-        display: none;
+        /* display: none; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        /* background-color: blueviolet; */
+        gap:1rem;
+        /* margin-top:15rem; */
+        transform: translateX(500px);
+        width: 100%;
     }
+    
     .myname{
         font-size: 2rem;
     }
@@ -389,8 +412,11 @@ input:focus{
     }
     .navbar{
         padding: 1rem;
-        height: auto;
+         height: 10px; 
+        padding-top: 7rem;
         justify-content: flex-end;
+        margin-bottom: 5rem;
+        /* overflow: hidden; */
     }
     .aboutme-box{
         flex-direction: column;
@@ -398,6 +424,7 @@ input:focus{
         justify-content: center;
         min-width: 300px;
         padding: 1rem;
+        margin-top: 5rem;
     }
     .description{
         width: auto;

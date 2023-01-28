@@ -35,14 +35,17 @@ hamburgerIcon.addEventListener("click",function(){
               navItems.style.transition="0.3s ease"
               hamburgerIcon.style.display="block"
               closeMenu.style.display="none"
+              window.scrollBy=("0,0")
 
        })
+       $('nav ul li a').on('click', function () {
+                 $('nav ul').css("transform", "translatex(500px)");
+              hamburgerIcon.style.display='block';
+              closeMenu.style.display='none'
+               });
 
-      function dissappernav(){
-              navItems.style.display="none"
-       }
 
-       
+     
 
       
       

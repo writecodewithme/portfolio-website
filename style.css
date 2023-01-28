@@ -218,7 +218,7 @@ body{
 
 }
 .projects{
-    width:70rem;
+    width:50rem;
     /* max-width: 90rem; */
     border:2px solid yellow;
     height:35rem;
@@ -385,7 +385,7 @@ input:focus{
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        /* background-color: blueviolet; */
+        background-color: rgba(10, 10, 10, 0.478);
         gap:1rem;
         /* margin-top:15rem; */
         transform: translateX(500px);
@@ -401,6 +401,7 @@ input:focus{
     .introduction {
         line-height:normal;
         letter-spacing: 0;
+        font-size: 3rem;
     }
     .greetings h4{
         font-size: 1.5rem;
@@ -412,10 +413,10 @@ input:focus{
     }
     .navbar{
         padding: 1rem;
-         height: 10px; 
+         height: 0; 
         padding-top: 7rem;
         justify-content: flex-end;
-        margin-bottom: 5rem;
+        /* margin-bottom: 5rem; */
         /* overflow: hidden; */
     }
     .aboutme-box{

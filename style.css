@@ -26,7 +26,7 @@ body{
     justify-content: space-around;
     align-items: center;
 }
-.hamburger-icon, .close-menu {
+.hamburger-icon , .close-menu  {
     display: none;
     text-align: right;
     color:white;
@@ -63,26 +63,25 @@ body{
 
 
 .main-section{
-    /* background-image: url("img/Elegant\ and\ Professional\ Company\ Business\ Proposal\ Presentation.jpg"); */
+    background-image: url("img/back\ ground.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     padding: 5rem 0rem;
+    background-attachment: fixed;
+    /* height: 100vh; */
 }
 .container-box{
     width:50%;
     min-width:10rem;
     /* height:70rem; */
-    margin:10rem auto;
+    margin:15rem auto;
     
     padding: 5rem;
-    background-position: fixed;
-    /* clip-path: polygon(100% 0%, 100% 100%, 51% 89%, 0 100%, 0% 50%, 0 0); */
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     gap:5rem;
-    /* box-shadow: 0rem 0rem  70rem 20rem rgba(224, 205, 182, 0.426) inset ; */
     flex-wrap: wrap;
     text-align: center;
 
@@ -116,9 +115,10 @@ body{
 }
 .about-me-section{
     border: 1px solid white;
-    /* background-image: url("img/Elegant\ and\ Professional\ Company\ Business\ Proposal\ Presentation\ \(2\).jpg"); */
+    background-image: url("img/Rojal\ in.jpg");
     background-size: cover;
     padding:10rem;
+    background-attachment: scroll;
     
 
 }
@@ -139,6 +139,7 @@ body{
 .img-box{
     /* border: 1px solid yellow; */
     width:40%;
+    box-shadow: 0px 0px 4px 7px gray;
 }
 .description h2 {
     margin-bottom: 5rem;
@@ -151,8 +152,12 @@ body{
 }
 .description{
     padding: 2rem;
-    width:50%;
-    /* min-width: 300px; */
+    width:40%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-direction: column;
+    gap:3rem
     
 }
 .about-me-text{
@@ -198,7 +203,7 @@ body{
     padding-bottom: 10rem;
     /* border:1px solid blue */
     margin:1px auto;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     text-align: center;
 
 
@@ -214,16 +219,18 @@ body{
     padding:2rem;
     gap:5rem;
     flex-wrap: wrap;
-    border:2px solid white
 
 }
 .projects{
     width:50rem;
     /* max-width: 90rem; */
-    border:2px solid yellow;
+    /* border:2px solid yellow; */
     height:35rem;
     overflow-y: hidden;
     overflow-x: hidden;
+    background-color: rgba(16, 131, 231, 0.133);
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px 5px white;
     
 }
 .project-desc{
